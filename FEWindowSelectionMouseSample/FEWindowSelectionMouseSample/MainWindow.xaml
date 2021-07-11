@@ -1,0 +1,12 @@
+﻿<Window x:Class="FEWindowSelectionMouseSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FEWindowSelectionMouseSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Button x:Name="WindowSelectionLeftButtonUpButton" Content="マウスの左ボタンを離した位置で選択" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="100" Margin="10,10,0,0"/>
+    </Grid>
+</Window>

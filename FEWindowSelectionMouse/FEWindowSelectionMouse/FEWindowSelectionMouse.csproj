@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PackageId>FreeEcho Window Selection Mouse</PackageId>
+    <Version>1.4.0</Version>
+    <Product>FreeEcho Window Selection Mouse</Product>
+    <Authors>FreeEcho</Authors>
+    <Company>FreeEcho</Company>
+    <Copyright>© 2021 FreeEcho</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Z:\AppDevelopment\Library\.Net\マウスでウィンドウ選択\FEWindowSelectionMouse\FEWindowSelectionMouse\FEWindowSelectionMouse.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>Z:\AppDevelopment\Library\.Net\マウスでウィンドウ選択\FEWindowSelectionMouse\FEWindowSelectionMouse\FEWindowSelectionMouse.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
