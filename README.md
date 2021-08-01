@@ -1,4 +1,5 @@
 # FreeEcho-Window-Selection-Mouse
-マウスでウィンドウを選択するプログラムです。<br>
+マウスカーソルでウィンドウを選択してウィンドウハンドルを取得するプログラムです。<br>
+マウスカーソルが乗っているウィンドウの周りに枠が表示されます。<br>
 <br>
 「FEWindowSelectionMouseSample」は使用方法のサンプルプログラムです。
