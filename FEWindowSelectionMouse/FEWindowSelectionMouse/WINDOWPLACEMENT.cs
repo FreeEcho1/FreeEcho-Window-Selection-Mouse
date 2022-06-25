@@ -1,15 +1,11 @@
-﻿namespace FreeEcho
+﻿namespace FreeEcho.FEWindowSelectionMouse;
+
+internal struct WINDOWPLACEMENT
 {
-    namespace FEWindowSelectionMouse
-    {
-        internal struct WINDOWPLACEMENT
-        {
-            public int length;
-            public int flags;
-            public int showCmd;
-            public POINT ptMinPosition;
-            public POINT ptMaxPosition;
-            public RECT rcNormalPosition;
-        }
-    }
+    public int length;
+    public int flags;
+    public int showCmd;
+    public POINT ptMinPosition;
+    public POINT ptMaxPosition;
+    public RECT rcNormalPosition;
 }

@@ -154,6 +154,7 @@
             ウィンドウ選択開始
             </summary>
             <exception cref="T:FreeEcho.FEWindowSelectionMouse.StartWindowSelectionException">ウィンドウ選択開始の例外</exception>
+            <exception cref="T:System.ComponentModel.Win32Exception">Win 32のエラーコードの例外</exception>
         </member>
         <member name="M:FreeEcho.FEWindowSelectionMouse.WindowSelectionFrame.StopWindowSelection">
             <summary>

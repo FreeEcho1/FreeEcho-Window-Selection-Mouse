@@ -1,11 +1,7 @@
-﻿namespace FreeEcho
+﻿namespace FreeEcho.FEWindowSelectionMouse;
+
+internal struct POINT
 {
-    namespace FEWindowSelectionMouse
-    {
-        internal struct POINT
-        {
-            public int x;
-            public int y;
-        }
-    }
+    public int x;
+    public int y;
 }

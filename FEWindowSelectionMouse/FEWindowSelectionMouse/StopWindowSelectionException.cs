@@ -1,19 +1,15 @@
-﻿namespace FreeEcho
+﻿namespace FreeEcho.FEWindowSelectionMouse;
+
+/// <summary>
+/// ウィンドウ選択停止の例外
+/// </summary>
+public class StopWindowSelectionException : System.Exception
 {
-    namespace FEWindowSelectionMouse
+    /// <summary>
+    /// コンストラクタ
+    /// </summary>
+    public StopWindowSelectionException()
+        : base("Failed to stop window selection.")
     {
-        /// <summary>
-        /// ウィンドウ選択停止の例外
-        /// </summary>
-        public class StopWindowSelectionException : System.Exception
-        {
-            /// <summary>
-            /// コンストラクタ
-            /// </summary>
-            public StopWindowSelectionException()
-                : base("Failed to stop window selection.")
-            {
-            }
-        }
     }
 }

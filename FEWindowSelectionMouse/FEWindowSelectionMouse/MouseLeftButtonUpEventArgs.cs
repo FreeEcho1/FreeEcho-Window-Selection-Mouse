@@ -1,12 +1,8 @@
-﻿namespace FreeEcho
+﻿namespace FreeEcho.FEWindowSelectionMouse;
+
+/// <summary>
+/// マウスの左ボタンが離されたイベントデータ
+/// </summary>
+public class MouseLeftButtonUpEventArgs
 {
-    namespace FEWindowSelectionMouse
-    {
-        /// <summary>
-        /// マウスの左ボタンが離されたイベントデータ
-        /// </summary>
-        public class MouseLeftButtonUpEventArgs
-        {
-        }
-    }
 }
