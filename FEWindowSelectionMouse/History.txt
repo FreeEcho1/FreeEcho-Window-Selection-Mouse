@@ -2,6 +2,9 @@
 // 「FreeEcho Window Selection Mouse」 history
 ///////////////////////////////////////////////
 
+Version 1.5.0 - 2022/6/26
+ - 修正。
+
 Version 1.4.0 - 2021/7/11
  - 「.Net Framework」から「.Net」に変更。
  - 処理を変更。
